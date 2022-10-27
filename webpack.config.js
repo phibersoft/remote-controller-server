@@ -4,7 +4,9 @@ module.exports = {
   devtool: "inline-source-map",
   entry: "./server.ts",
   target: "node",
-  externals: [nodeExternals()],
+  externals: [nodeExternals(), {
+    "robotjs": "commonjs robotjs"
+  }],
   output: {
     filename: "bundle.js",
   },
