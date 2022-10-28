@@ -1,3 +1,6 @@
+## Notice: Archived
+Project is moving to [Remote Controller with Python](https://github.com/phibersoft/remote-controller-python-server).
+
 ## Remote Controller Server Side
 
 This is the server side of the remote controller. It is a simple web server that runs on your local computer.
